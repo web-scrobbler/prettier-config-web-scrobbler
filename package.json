@@ -1,0 +1,36 @@
+{
+  "name": "prettier-config-web-scrobbler",
+  "version": "0.0.1",
+  "author": "Alexey <alex.esprit@gmail.com>",
+  "description": "Prettier configuration file for Web Scrobbler projects",
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/web-scrobbler/prettier-config-web-scrobbler.git"
+  },
+  "keywords": [
+    "config",
+    "prettier",
+    "prettier-config"
+  ],
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "peerDependencies": {
+    "prettier": ">=2"
+  },
+  "devDependencies": {
+    "eslint": "7.1.0",
+    "eslint-config-web-scrobbler": "0.3.0"
+  },
+  "scripts": {
+    "lint": "eslint index.js"
+  },
+  "eslintConfig": {
+    "extends": "web-scrobbler"
+  }
+}
