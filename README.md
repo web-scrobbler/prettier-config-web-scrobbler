@@ -9,8 +9,7 @@ You can install `prettier-config-web-scrobbler` by a following way:
 > npm install --save-dev prettier-config-web-scrobbler
 ```
 
-Then, add `prettier-config-web-scrobbler` to the `extends` array in your
-`.prettierrc.*` file.
+Then, add `prettier-config-web-scrobbler` to your `.prettierrc.*` file:
 ```json
 "prettier-config-web-scrobbler"
 ```
